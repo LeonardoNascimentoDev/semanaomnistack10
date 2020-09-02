@@ -14,7 +14,6 @@ app.use(express.json());
 
 //MongoDB (Não-relacional)
 
-
 app.post('/users/:id', (request, response) => {
   console.log(request.body);
   return response.json({ message: 'Seja bem vindo!'});
